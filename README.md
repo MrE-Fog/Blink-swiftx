@@ -11,4 +11,7 @@ let kLightURLString : String = "http://salty.local:8888/light"
 
 Here a few screenshots from working application.
 
+![Lights on](https://raw.githubusercontent.com/snyuryev/Blink-swift/master/light-on.jpg)
+
+![Lights off](https://raw.githubusercontent.com/snyuryev/Blink-swift/master/light-off.jpg)
 
