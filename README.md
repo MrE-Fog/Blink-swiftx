@@ -9,7 +9,7 @@ let kStatusURLString : String = "http://salty.local:8888/status"
 let kLightURLString : String = "http://salty.local:8888/light"
 ```
 
-Here are a few screenshots from working application.
+Here are a few screenshots from working application. It show current state of led (on or off states are displayed with corresponding colors of the background and the bulb). Tap the bulb to switch led state.
 
 ![Lights on](https://raw.githubusercontent.com/snyuryev/Blink-swift/master/light-on.jpg)
 
