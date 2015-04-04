@@ -9,7 +9,7 @@ let kStatusURLString : String = "http://salty.local:8888/status"
 let kLightURLString : String = "http://salty.local:8888/light"
 ```
 
-Here a few screenshots from working application.
+Here are a few screenshots from working application.
 
 ![Lights on](https://raw.githubusercontent.com/snyuryev/Blink-swift/master/light-on.jpg)
 
