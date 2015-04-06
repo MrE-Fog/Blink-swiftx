@@ -24,17 +24,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var loadingView: UIView!
     @IBOutlet weak var turnButton: UIButton!
     
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    }
-    
-    override func viewWillAppear(animated: Bool){
-        super.viewWillAppear(animated)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector:"preload", name:
+            UIApplicationWillEnterForegroundNotification, object: nil)
         
         preload()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
